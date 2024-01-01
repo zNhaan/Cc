@@ -31,6 +31,6 @@ data = {
 }
 os.system('clear')
 while True:
-  cc = requests.post(url=url, header=header, data=data)
+  cc = requests.post(url=url, headers=header, data=data)
   print("Thành Công!")
   sleep(600)
